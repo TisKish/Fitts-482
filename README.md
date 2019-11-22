@@ -19,5 +19,9 @@ How to run:
         - ionic serve
 
 
+If you encounter "Running scripts is disabled on this system":
+	- Type the following in terminal:
+		Set-ExecutionPolicy RemoteSigned 
+
 Contributers:
 - Kootaws Yang (kootaws.yang@mnsu.edu)

@@ -423,14 +423,12 @@ setCoords(event) {
   this.newCursorY = y;
 }
 
-  clearTimer() {
-    // if (this.errorCount > 2) {
-    // this.errorCount -= 1;}
-    // else if (this.errorCount == 2) 
-    // { this.errorCount -= 2;}
-  var x2 = (this.newCursorX - this.oldCursorX)*(this.newCursorX - this.oldCursorX);
+    clearTimer() {
+
+  var x2 = (this.newCursorX - this.oldCursorX) * (this.newCursorX - this.oldCursorX);
   var y2 = (this.newCursorY - this.oldCursorY) * (this.newCursorY - this.oldCursorY);
-    this.distanceBetween = Math.sqrt(x2 + y2);
+      this.distanceBetween = Math.sqrt(x2 + y2);
+
     if (this.curentPickId == 1) {
       this.csvData.push({"Distance_From_Center":"350", "Size":"175", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }

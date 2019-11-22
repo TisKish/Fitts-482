@@ -114,7 +114,7 @@ csvOptions = {
     }
     else if (pickId == 3) {
       if (this.smallLeftLo > 0) {
-        // this.csvData = [{"Distance_From_Center":"480", "Size":"120", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"400", "Size":"175", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -122,7 +122,7 @@ csvOptions = {
     }
     else if (pickId == 4) {
       if (this.smallRightLo > 0) {
-        // this.csvData = [{"Distance_From_Center":"480", "Size":"120", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"400", "Size":"175", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -130,7 +130,7 @@ csvOptions = {
     }
     else if (pickId == 5) {
       if (this.smallLeftHi > 0) {
-        // this.csvData = [{"Distance_From_Center":"600", "Size":"120", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"450", "Size":"175", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -138,7 +138,7 @@ csvOptions = {
     }
     else if (pickId == 6) {
       if (this.smallRightHi > 0) {
-        // this.csvData = [{"Distance_From_Center":"600", "Size":"120", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"450", "Size":"175", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -146,7 +146,7 @@ csvOptions = {
     }
     else if (pickId == 7) {
       if (this.smallLeftLong > 0) {
-        // this.csvData = [{"Distance_From_Center":"720", "Size":"120", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"500", "Size":"175", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -154,7 +154,7 @@ csvOptions = {
     }
     else if (pickId == 8) {
       if (this.smallRightLong > 0) {
-        // this.csvData = [{"Distance_From_Center":"720", "Size":"120", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"500", "Size":"175", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -162,7 +162,7 @@ csvOptions = {
     }
     else if (pickId == 9) {
       if (this.loLeftShort > 0) {
-        // this.csvData = [{"Distance_From_Center":"360", "Size":"240", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"350", "Size":"250", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -170,7 +170,7 @@ csvOptions = {
     }
     else if (pickId == 10) {
       if (this.loRightShort > 0) {
-        // this.csvData = [{"Distance_From_Center":"360", "Size":"240", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"350", "Size":"250", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -178,7 +178,7 @@ csvOptions = {
     }
     else if (pickId == 11) {
       if (this.loLeftLo > 0) {
-        // this.csvData = [{"Distance_From_Center":"480", "Size":"240", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"400", "Size":"250", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -186,7 +186,7 @@ csvOptions = {
     }
     else if (pickId == 12) {
       if (this.loRightLo > 0) {
-        // this.csvData = [{"Distance_From_Center":"480", "Size":"240", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"400", "Size":"250", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -194,7 +194,7 @@ csvOptions = {
     }
     else if (pickId == 13) {
       if (this.loLeftHi > 0) {
-        // this.csvData = [{"Distance_From_Center":"600", "Size":"240", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"450", "Size":"250", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -202,7 +202,7 @@ csvOptions = {
     }
     else if (pickId == 14) {
       if (this.loRightHi > 0) {
-        // this.csvData = [{"Distance_From_Center":"600", "Size":"240", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"450", "Size":"250", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -210,7 +210,7 @@ csvOptions = {
     }
     else if (pickId == 15) {
       if (this.loLeftLong > 0) {
-        // this.csvData = [{"Distance_From_Center":"720", "Size":"240", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"500", "Size":"250", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -218,7 +218,7 @@ csvOptions = {
     }
     else if (pickId == 16) {
       if (this.loRightLong > 0) {
-        // this.csvData = [{"Distance_From_Center":"720", "Size":"240", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"500", "Size":"250", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -226,7 +226,7 @@ csvOptions = {
     }
     else if (pickId == 17) {
       if (this.hiLeftShort > 0) {
-        // this.csvData = [{"Distance_From_Center":"360", "Size":"360", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"350", "Size":"325", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -234,7 +234,7 @@ csvOptions = {
     }
     else if (pickId == 18) {
       if (this.hiRightShort > 0) {
-        // this.csvData = [{"Distance_From_Center":"360", "Size":"360", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"350", "Size":"325", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -242,7 +242,7 @@ csvOptions = {
     }
     else if (pickId == 19) {
       if (this.hiLeftLo > 0) {
-        // this.csvData = [{"Distance_From_Center":"480", "Size":"360", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"400", "Size":"325", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -250,7 +250,7 @@ csvOptions = {
     }
     else if (pickId == 20) {
       if (this.hiRightLo > 0) {
-        // this.csvData = [{"Distance_From_Center":"480", "Size":"360", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"400", "Size":"325", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -258,7 +258,7 @@ csvOptions = {
     }
     else if (pickId == 21) {
       if (this.hiLeftHi > 0) {
-        // this.csvData = [{"Distance_From_Center":"600", "Size":"360", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"450", "Size":"325", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -266,7 +266,7 @@ csvOptions = {
     }
     else if (pickId == 22) {
       if (this.hiRightHi > 0) {
-        // this.csvData = [{"Distance_From_Center":"600", "Size":"360", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"450", "Size":"325", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -274,7 +274,7 @@ csvOptions = {
     }
     else if (pickId == 23) {
       if (this.hiLeftLong > 0) {
-        // this.csvData = [{"Distance_From_Center":"720", "Size":"360", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"500", "Size":"325", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -282,7 +282,7 @@ csvOptions = {
     }
     else if (pickId == 24) {
       if (this.hiRightLong > 0) {
-        // this.csvData = [{"Distance_From_Center":"720", "Size":"360", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"500", "Size":"325", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -290,7 +290,7 @@ csvOptions = {
     }
     else if (pickId == 25) {
       if (this.largeLeftShort > 0) {
-        // this.csvData = [{"Distance_From_Center":"360", "Size":"480", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"350", "Size":"400", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -298,7 +298,7 @@ csvOptions = {
     }
     else if (pickId == 26) {
       if (this.largeRightShort > 0) {
-        // this.csvData = [{"Distance_From_Center":"360", "Size":"480", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"350", "Size":"400", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -306,7 +306,7 @@ csvOptions = {
     }
     else if (pickId == 27) {
       if (this.largeLeftLo > 0) {
-        // this.csvData = [{"Distance_From_Center":"480", "Size":"480", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"400", "Size":"400", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -314,7 +314,7 @@ csvOptions = {
     }
     else if (pickId == 28) {
       if (this.largeRightLo > 0) {
-        // this.csvData = [{"Distance_From_Center":"480", "Size":"480", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"400", "Size":"400", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -322,7 +322,7 @@ csvOptions = {
     }
     else if (pickId == 29) {
       if (this.largeLeftHi > 0) {
-        // this.csvData = [{"Distance_From_Center":"600", "Size":"480", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"450", "Size":"400", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -330,7 +330,7 @@ csvOptions = {
     }
     else if (pickId == 30) {
       if (this.largeRightHi > 0) {
-        // this.csvData = [{"Distance_From_Center":"600", "Size":"480", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"450", "Size":"400", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -338,7 +338,7 @@ csvOptions = {
     }
     else if (pickId == 31) {
       if (this.largeLeftLong > 0) {
-        // this.csvData = [{"Distance_From_Center":"720", "Size":"480", "Direction":"Left"}];
+        // this.csvData = [{"Distance_From_Center":"500", "Size":"400", "Direction":"Left"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -346,7 +346,7 @@ csvOptions = {
     }
     else if (pickId == 32) {
       if (this.largeRightLong > 0) {
-        // this.csvData = [{"Distance_From_Center":"720", "Size":"480", "Direction":"Right"}];
+        // this.csvData = [{"Distance_From_Center":"500", "Size":"400", "Direction":"Right"}];
         this.totalTaken += 1;
         document.getElementById(circleId).style.visibility = "visible"; this.startTimer()
       }
@@ -432,101 +432,101 @@ setCoords(event) {
   var y2 = (this.newCursorY - this.oldCursorY) * (this.newCursorY - this.oldCursorY);
     this.distanceBetween = Math.sqrt(x2 + y2);
     if (this.curentPickId == 1) {
-      this.csvData.push({"Distance_From_Center":"360", "Size":"120", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"350", "Size":"175", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 2) {
         
-      this.csvData.push({"Distance_From_Center":"360", "Size":"120", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"350", "Size":"175", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 3) {
-      this.csvData.push({"Distance_From_Center":"480", "Size":"120", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"400", "Size":"175", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 4) {
-      this.csvData.push({"Distance_From_Center":"480", "Size":"120", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"400", "Size":"175", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 5) {
-      this.csvData.push({"Distance_From_Center":"600", "Size":"120", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"450", "Size":"175", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 6) {
-      this.csvData.push({"Distance_From_Center":"600", "Size":"120", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"450", "Size":"175", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 7) {
-      this.csvData.push({"Distance_From_Center":"720", "Size":"120", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"500", "Size":"175", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 8) {
-      this.csvData.push({"Distance_From_Center":"720", "Size":"120", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"500", "Size":"175", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 9) {
-      this.csvData.push({"Distance_From_Center":"360", "Size":"240", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"350", "Size":"250", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 10) {
-      this.csvData.push({"Distance_From_Center":"360", "Size":"240", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"350", "Size":"250", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 11) {
-      this.csvData.push({"Distance_From_Center":"480", "Size":"240", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"400", "Size":"250", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 12) {
-      this.csvData.push({"Distance_From_Center":"480", "Size":"240", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"400", "Size":"250", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 13) {
-      this.csvData.push({"Distance_From_Center":"600", "Size":"240", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"450", "Size":"250", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 14) {
-      this.csvData.push({"Distance_From_Center":"600", "Size":"240", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"450", "Size":"250", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 15) {
-      this.csvData.push({"Distance_From_Center":"720", "Size":"240", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"500", "Size":"250", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 16) {
-      this.csvData.push({"Distance_From_Center":"720", "Size":"240", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"500", "Size":"250", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 17) {
-      this.csvData.push({"Distance_From_Center":"360", "Size":"360", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"350", "Size":"325", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 18) {
-      this.csvData.push({"Distance_From_Center":"360", "Size":"360", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"350", "Size":"325", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 19) {
-      this.csvData.push({"Distance_From_Center":"480", "Size":"360", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"400", "Size":"325", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 20) {
-      this.csvData.push({"Distance_From_Center":"480", "Size":"360", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"400", "Size":"325", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 21) {
-      this.csvData.push({"Distance_From_Center":"600", "Size":"360", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"450", "Size":"325", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 22) {
-      this.csvData.push({"Distance_From_Center":"600", "Size":"360", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"450", "Size":"325", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 23) {
-      this.csvData.push({"Distance_From_Center":"720", "Size":"360", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"500", "Size":"325", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 24) {
-      this.csvData.push({"Distance_From_Center":"720", "Size":"360", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"500", "Size":"325", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 25) {
-      this.csvData.push({"Distance_From_Center":"360", "Size":"480", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"350", "Size":"400", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 26) {
-      this.csvData.push({"Distance_From_Center":"360", "Size":"480", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"350", "Size":"400", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 27) {
-      this.csvData.push({"Distance_From_Center":"480", "Size":"480", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"400", "Size":"400", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 28) {
-      this.csvData.push({"Distance_From_Center":"480", "Size":"480", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"400", "Size":"400", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 29) {
-      this.csvData.push({"Distance_From_Center":"600", "Size":"480", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"450", "Size":"400", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 30) {
-      this.csvData.push({"Distance_From_Center":"600", "Size":"480", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"450", "Size":"400", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 31) {
-      this.csvData.push({"Distance_From_Center":"720", "Size":"480", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"500", "Size":"400", "Direction":"Left", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     else if (this.curentPickId == 32) {
-      this.csvData.push({"Distance_From_Center":"720", "Size":"480", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
+      this.csvData.push({"Distance_From_Center":"500", "Size":"400", "Direction":"Right", "Times":this.counter, "Errors":this.errorCount, "Distance_Travelled":this.distanceBetween});
     }
     
     this.errorCount = 0;
